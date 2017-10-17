@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         RestAdapter adapter = new RestAdapter.Builder()
                 .setEndpoint(ROOT_URL) //Setting the Root URL
                 .build(); //Finally building the adapter
-
+setTitle("Register Webservices");
         //Creating object for our interface
         RegisterAPI api = adapter.create(RegisterAPI.class);
 
